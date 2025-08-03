@@ -1,0 +1,723 @@
+[
+  {
+    "name": "Wireless Earbuds",
+    "categories": [
+      "Audio"
+    ],
+    "description": "Wireless Earbuds with high-quality performance and modern design. Ideal for daily use.",
+    "price": 31.95,
+    "offerPrice": 46.63,
+    "rating": 3.7,
+    "reviews": 101,
+    "brand": "HomeEssence",
+    "stock": 10,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product1_1.jpg",
+      "https://example.com/images/product1_2.jpg"
+    ],
+    "features": [
+      "Bluetooth connectivity",
+      "Water resistant",
+      "Compact design",
+      "Adjustable size"
+    ],
+    "color": "Green",
+    "tags": [
+      "new arrival",
+      "eco-friendly",
+      "bestseller"
+    ],
+    "dimensions": {
+      "weight": "2336g",
+      "height": "32cm",
+      "width": "14cm",
+      "depth": "15cm"
+    }
+  },
+  {
+    "name": "Smartphone Stand",
+    "categories": [
+      "Audio"
+    ],
+    "description": "Smartphone Stand with high-quality performance and modern design. Ideal for daily use.",
+    "price": 56.04,
+    "offerPrice": 163.34,
+    "rating": 3.7,
+    "reviews": 141,
+    "brand": "ElectroMax",
+    "stock": 32,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product2_1.jpg",
+      "https://example.com/images/product2_2.jpg"
+    ],
+    "features": [
+      "Water resistant",
+      "USB-C compatible",
+      "Adjustable size",
+      "Rechargeable battery"
+    ],
+    "color": "Green",
+    "tags": [
+      "premium",
+      "top-rated",
+      "bestseller"
+    ],
+    "dimensions": {
+      "weight": "4807g",
+      "height": "45cm",
+      "width": "18cm",
+      "depth": "15cm"
+    }
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "categories": [
+      "Office"
+    ],
+    "description": "Bluetooth Speaker with high-quality performance and modern design. Ideal for daily use.",
+    "price": 63.98,
+    "offerPrice": 92.96,
+    "rating": 3.9,
+    "reviews": 85,
+    "brand": "FitLife",
+    "stock": 55,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product3_1.jpg",
+      "https://example.com/images/product3_2.jpg"
+    ],
+    "features": [
+      "Fast charging",
+      "Durable materials",
+      "Rechargeable battery",
+      "Compact design"
+    ],
+    "color": "Red",
+    "tags": [
+      "eco-friendly",
+      "top-rated",
+      "limited"
+    ],
+    "dimensions": {
+      "weight": "4156g",
+      "height": "29cm",
+      "width": "6cm",
+      "depth": "6cm"
+    }
+  },
+  {
+    "name": "Laptop Backpack",
+    "categories": [
+      "Gadgets"
+    ],
+    "description": "Laptop Backpack with high-quality performance and modern design. Ideal for daily use.",
+    "price": 43.19,
+    "offerPrice": 103.56,
+    "rating": 4.3,
+    "reviews": 42,
+    "brand": "NovaCore",
+    "stock": 90,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product4_1.jpg",
+      "https://example.com/images/product4_2.jpg"
+    ],
+    "features": [
+      "Rechargeable battery",
+      "Water resistant",
+      "Adjustable size",
+      "Compact design"
+    ],
+    "color": "Black",
+    "tags": [
+      "top-rated",
+      "limited",
+      "premium"
+    ],
+    "dimensions": {
+      "weight": "1053g",
+      "height": "30cm",
+      "width": "27cm",
+      "depth": "19cm"
+    }
+  },
+  {
+    "name": "Gaming Mouse",
+    "categories": [
+      "Accessories"
+    ],
+    "description": "Gaming Mouse with high-quality performance and modern design. Ideal for daily use.",
+    "price": 185.82,
+    "offerPrice": 174.58,
+    "rating": 3.9,
+    "reviews": 136,
+    "brand": "TechNova",
+    "stock": 34,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product5_1.jpg",
+      "https://example.com/images/product5_2.jpg"
+    ],
+    "features": [
+      "Durable materials",
+      "Bluetooth connectivity",
+      "USB-C compatible",
+      "LED indicators"
+    ],
+    "color": "Blue",
+    "tags": [
+      "top-rated",
+      "new arrival",
+      "eco-friendly"
+    ],
+    "dimensions": {
+      "weight": "262g",
+      "height": "15cm",
+      "width": "29cm",
+      "depth": "10cm"
+    }
+  },
+  {
+    "name": "LED Desk Lamp",
+    "categories": [
+      "Kitchen"
+    ],
+    "description": "LED Desk Lamp with high-quality performance and modern design. Ideal for daily use.",
+    "price": 152.62,
+    "offerPrice": 191.46,
+    "rating": 4.4,
+    "reviews": 273,
+    "brand": "ElectroMax",
+    "stock": 51,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product6_1.jpg",
+      "https://example.com/images/product6_2.jpg"
+    ],
+    "features": [
+      "Rechargeable battery",
+      "Compact design",
+      "Adjustable size",
+      "Durable materials"
+    ],
+    "color": "White",
+    "tags": [
+      "discount",
+      "eco-friendly",
+      "limited"
+    ],
+    "dimensions": {
+      "weight": "397g",
+      "height": "18cm",
+      "width": "7cm",
+      "depth": "16cm"
+    }
+  },
+  {
+    "name": "Water Bottle",
+    "categories": [
+      "Smart Devices"
+    ],
+    "description": "Water Bottle with high-quality performance and modern design. Ideal for daily use.",
+    "price": 150.21,
+    "offerPrice": 129.75,
+    "rating": 4.6,
+    "reviews": 230,
+    "brand": "ElectroMax",
+    "stock": 90,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product7_1.jpg",
+      "https://example.com/images/product7_2.jpg"
+    ],
+    "features": [
+      "LED indicators",
+      "Bluetooth connectivity",
+      "USB-C compatible",
+      "Adjustable size"
+    ],
+    "color": "Black",
+    "tags": [
+      "top-rated",
+      "premium",
+      "bestseller"
+    ],
+    "dimensions": {
+      "weight": "482g",
+      "height": "44cm",
+      "width": "13cm",
+      "depth": "5cm"
+    },
+    "dietType": "Organic"
+  },
+  {
+    "name": "Smart Watch",
+    "categories": [
+      "Kitchen"
+    ],
+    "description": "Smart Watch with high-quality performance and modern design. Ideal for daily use.",
+    "price": 123.02,
+    "offerPrice": 100.26,
+    "rating": 4.5,
+    "reviews": 88,
+    "brand": "TechNova",
+    "stock": 19,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product8_1.jpg",
+      "https://example.com/images/product8_2.jpg"
+    ],
+    "features": [
+      "USB-C compatible",
+      "Durable materials",
+      "LED indicators",
+      "Adjustable size"
+    ],
+    "color": "Red",
+    "tags": [
+      "limited",
+      "eco-friendly",
+      "premium"
+    ],
+    "dimensions": {
+      "weight": "3214g",
+      "height": "10cm",
+      "width": "26cm",
+      "depth": "17cm"
+    }
+  },
+  {
+    "name": "Portable Charger",
+    "categories": [
+      "Kitchen"
+    ],
+    "description": "Portable Charger with high-quality performance and modern design. Ideal for daily use.",
+    "price": 212.23,
+    "offerPrice": 240.7,
+    "rating": 3.9,
+    "reviews": 243,
+    "brand": "ElectroMax",
+    "stock": 93,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product9_1.jpg",
+      "https://example.com/images/product9_2.jpg"
+    ],
+    "features": [
+      "USB-C compatible",
+      "Durable materials",
+      "Adjustable size",
+      "Compact design"
+    ],
+    "color": "Green",
+    "tags": [
+      "discount",
+      "eco-friendly",
+      "new arrival"
+    ],
+    "dimensions": {
+      "weight": "1106g",
+      "height": "40cm",
+      "width": "26cm",
+      "depth": "11cm"
+    }
+  },
+  {
+    "name": "Fitness Tracker",
+    "categories": [
+      "Fitness"
+    ],
+    "description": "Fitness Tracker with high-quality performance and modern design. Ideal for daily use.",
+    "price": 64.01,
+    "offerPrice": 163.7,
+    "rating": 4.6,
+    "reviews": 22,
+    "brand": "NovaCore",
+    "stock": 75,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product10_1.jpg",
+      "https://example.com/images/product10_2.jpg"
+    ],
+    "features": [
+      "Compact design",
+      "Durable materials",
+      "Fast charging",
+      "Rechargeable battery"
+    ],
+    "color": "Green",
+    "tags": [
+      "top-rated",
+      "premium",
+      "discount"
+    ],
+    "dimensions": {
+      "weight": "1573g",
+      "height": "12cm",
+      "width": "8cm",
+      "depth": "6cm"
+    }
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "categories": [
+      "Gadgets"
+    ],
+    "description": "Noise Cancelling Headphones with high-quality performance and modern design. Ideal for daily use.",
+    "price": 286.5,
+    "offerPrice": 114.44,
+    "rating": 3.8,
+    "reviews": 103,
+    "brand": "NovaCore",
+    "stock": 95,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product11_1.jpg",
+      "https://example.com/images/product11_2.jpg"
+    ],
+    "features": [
+      "USB-C compatible",
+      "Durable materials",
+      "Bluetooth connectivity",
+      "Water resistant"
+    ],
+    "color": "Black",
+    "tags": [
+      "bestseller",
+      "top-rated",
+      "premium"
+    ],
+    "dimensions": {
+      "weight": "933g",
+      "height": "46cm",
+      "width": "9cm",
+      "depth": "14cm"
+    }
+  },
+  {
+    "name": "Ergonomic Keyboard",
+    "categories": [
+      "Fitness"
+    ],
+    "description": "Ergonomic Keyboard with high-quality performance and modern design. Ideal for daily use.",
+    "price": 292.74,
+    "offerPrice": 70.67,
+    "rating": 4.8,
+    "reviews": 60,
+    "brand": "EcoPlus",
+    "stock": 83,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product12_1.jpg",
+      "https://example.com/images/product12_2.jpg"
+    ],
+    "features": [
+      "USB-C compatible",
+      "Compact design",
+      "Water resistant",
+      "Rechargeable battery"
+    ],
+    "color": "Red",
+    "tags": [
+      "top-rated",
+      "new arrival",
+      "bestseller"
+    ],
+    "dimensions": {
+      "weight": "2549g",
+      "height": "16cm",
+      "width": "11cm",
+      "depth": "10cm"
+    }
+  },
+  {
+    "name": "USB-C Hub",
+    "categories": [
+      "Smart Devices"
+    ],
+    "description": "USB-C Hub with high-quality performance and modern design. Ideal for daily use.",
+    "price": 213.54,
+    "offerPrice": 240.06,
+    "rating": 3.8,
+    "reviews": 107,
+    "brand": "HomeEssence",
+    "stock": 26,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product13_1.jpg",
+      "https://example.com/images/product13_2.jpg"
+    ],
+    "features": [
+      "Rechargeable battery",
+      "Fast charging",
+      "USB-C compatible",
+      "Durable materials"
+    ],
+    "color": "Blue",
+    "tags": [
+      "premium",
+      "eco-friendly",
+      "top-rated"
+    ],
+    "dimensions": {
+      "weight": "995g",
+      "height": "17cm",
+      "width": "19cm",
+      "depth": "16cm"
+    }
+  },
+  {
+    "name": "Yoga Mat",
+    "categories": [
+      "Electronics"
+    ],
+    "description": "Yoga Mat with high-quality performance and modern design. Ideal for daily use.",
+    "price": 40.73,
+    "offerPrice": 228.23,
+    "rating": 4.0,
+    "reviews": 100,
+    "brand": "TechNova",
+    "stock": 39,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product14_1.jpg",
+      "https://example.com/images/product14_2.jpg"
+    ],
+    "features": [
+      "Fast charging",
+      "LED indicators",
+      "Rechargeable battery",
+      "Water resistant"
+    ],
+    "color": "Blue",
+    "tags": [
+      "top-rated",
+      "premium",
+      "limited"
+    ],
+    "dimensions": {
+      "weight": "1625g",
+      "height": "48cm",
+      "width": "15cm",
+      "depth": "10cm"
+    }
+  },
+  {
+    "name": "4K Monitor",
+    "categories": [
+      "Office"
+    ],
+    "description": "4K Monitor with high-quality performance and modern design. Ideal for daily use.",
+    "price": 182.38,
+    "offerPrice": 61.01,
+    "rating": 4.2,
+    "reviews": 15,
+    "brand": "NovaCore",
+    "stock": 22,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product15_1.jpg",
+      "https://example.com/images/product15_2.jpg"
+    ],
+    "features": [
+      "LED indicators",
+      "Adjustable size",
+      "Compact design",
+      "Fast charging"
+    ],
+    "color": "Gray",
+    "tags": [
+      "bestseller",
+      "discount",
+      "eco-friendly"
+    ],
+    "dimensions": {
+      "weight": "3394g",
+      "height": "40cm",
+      "width": "20cm",
+      "depth": "14cm"
+    }
+  },
+  {
+    "name": "Wireless Router",
+    "categories": [
+      "Fitness"
+    ],
+    "description": "Wireless Router with high-quality performance and modern design. Ideal for daily use.",
+    "price": 53.65,
+    "offerPrice": 207.01,
+    "rating": 4.9,
+    "reviews": 21,
+    "brand": "Zenith",
+    "stock": 38,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product16_1.jpg",
+      "https://example.com/images/product16_2.jpg"
+    ],
+    "features": [
+      "Fast charging",
+      "Compact design",
+      "USB-C compatible",
+      "LED indicators"
+    ],
+    "color": "Red",
+    "tags": [
+      "bestseller",
+      "discount",
+      "premium"
+    ],
+    "dimensions": {
+      "weight": "4159g",
+      "height": "15cm",
+      "width": "15cm",
+      "depth": "11cm"
+    }
+  },
+  {
+    "name": "Tablet Sleeve",
+    "categories": [
+      "Audio"
+    ],
+    "description": "Tablet Sleeve with high-quality performance and modern design. Ideal for daily use.",
+    "price": 157.87,
+    "offerPrice": 135.57,
+    "rating": 4.7,
+    "reviews": 37,
+    "brand": "NovaCore",
+    "stock": 82,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product17_1.jpg",
+      "https://example.com/images/product17_2.jpg"
+    ],
+    "features": [
+      "Water resistant",
+      "Compact design",
+      "Durable materials",
+      "Bluetooth connectivity"
+    ],
+    "color": "Blue",
+    "tags": [
+      "eco-friendly",
+      "discount",
+      "limited"
+    ],
+    "dimensions": {
+      "weight": "3306g",
+      "height": "11cm",
+      "width": "29cm",
+      "depth": "14cm"
+    }
+  },
+  {
+    "name": "Electric Kettle",
+    "categories": [
+      "Fitness"
+    ],
+    "description": "Electric Kettle with high-quality performance and modern design. Ideal for daily use.",
+    "price": 149.55,
+    "offerPrice": 33.13,
+    "rating": 3.6,
+    "reviews": 176,
+    "brand": "TechNova",
+    "stock": 67,
+    "isFeatured": true,
+    "images": [
+      "https://example.com/images/product18_1.jpg",
+      "https://example.com/images/product18_2.jpg"
+    ],
+    "features": [
+      "Fast charging",
+      "Durable materials",
+      "Water resistant",
+      "USB-C compatible"
+    ],
+    "color": "White",
+    "tags": [
+      "eco-friendly",
+      "limited",
+      "premium"
+    ],
+    "dimensions": {
+      "weight": "2498g",
+      "height": "23cm",
+      "width": "27cm",
+      "depth": "12cm"
+    }
+  },
+  {
+    "name": "Portable Fan",
+    "categories": [
+      "Smart Devices"
+    ],
+    "description": "Portable Fan with high-quality performance and modern design. Ideal for daily use.",
+    "price": 159.61,
+    "offerPrice": 222.88,
+    "rating": 3.7,
+    "reviews": 240,
+    "brand": "EcoPlus",
+    "stock": 95,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product19_1.jpg",
+      "https://example.com/images/product19_2.jpg"
+    ],
+    "features": [
+      "Fast charging",
+      "Adjustable size",
+      "Rechargeable battery",
+      "Water resistant"
+    ],
+    "color": "Green",
+    "tags": [
+      "top-rated",
+      "eco-friendly",
+      "limited"
+    ],
+    "dimensions": {
+      "weight": "2520g",
+      "height": "43cm",
+      "width": "22cm",
+      "depth": "18cm"
+    }
+  },
+  {
+    "name": "Car Phone Mount",
+    "categories": [
+      "Home"
+    ],
+    "description": "Car Phone Mount with high-quality performance and modern design. Ideal for daily use.",
+    "price": 153.85,
+    "offerPrice": 244.88,
+    "rating": 3.6,
+    "reviews": 192,
+    "brand": "UrbanTech",
+    "stock": 58,
+    "isFeatured": false,
+    "images": [
+      "https://example.com/images/product20_1.jpg",
+      "https://example.com/images/product20_2.jpg"
+    ],
+    "features": [
+      "USB-C compatible",
+      "Adjustable size",
+      "Fast charging",
+      "Durable materials"
+    ],
+    "color": "Green",
+    "tags": [
+      "top-rated",
+      "limited",
+      "discount"
+    ],
+    "dimensions": {
+      "weight": "319g",
+      "height": "34cm",
+      "width": "7cm",
+      "depth": "7cm"
+    }
+  }
+]
