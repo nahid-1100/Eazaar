@@ -10,7 +10,7 @@ const RootLayout = () => {
       <div>
         <Outlet></Outlet>
       </div>
-      <div>footer</div>
+      <div className="mt-[200px]">footer</div>
     </div>
   );
 };
