@@ -2,26 +2,26 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import useProducts from "../../../../hooks/useProducts";
 import TabCategory from "../TopCategory/TabCategory";
-const TopCategory = () => {
+
+const FeatureProduct = () => {
   const { products, isLoading } = useProducts();
-  if (isLoading) {
-    return;
-  }
   // TODO: change filter brand to category
   const projector = products.filter((item) => item.brand === "FitLife");
   const light = products.filter((item) => item.brand === "NovaCore");
   const laptop = products.filter((item) => item.brand === "TechNova");
-  // console.log(projector);
+  if (isLoading) {
+    return;
+  }
   return (
     <section className="section">
       <div>
         <Tabs>
           <TabList className="">
-            <div className="">
+            <div className="flex justify-between items-center">
               <div>
-                <Tab>Featured Products</Tab>
-                <Tab>Trending Products</Tab>
-                <Tab>Hot Sale</Tab>
+                <Tab>Projector</Tab>
+                <Tab>Light</Tab>
+                <Tab>Laptop</Tab>
               </div>
             </div>
           </TabList>
@@ -49,4 +49,4 @@ const TopCategory = () => {
   );
 };
 
-export default TopCategory;
+export default FeatureProduct;

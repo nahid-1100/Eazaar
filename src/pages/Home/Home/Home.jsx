@@ -9,6 +9,7 @@ import computer from "../../../assets/Home/categories/laptop_slider_2_406x628-1.
 import phone from "../../../assets/Home/categories/phone_slider_2_406x628-1.jpg";
 import HotSale from "./HotSale/HotSale";
 import EasyLife from "./EasyLife/EasyLife";
+import FeatureProduct from "./FeatureProduct/FeatureProduct";
 
 const Home = () => {
   return (
@@ -55,6 +56,8 @@ const Home = () => {
       ></Categories>
       {/* Gadget Makes Your Life Easy */}
       <EasyLife></EasyLife>
+      {/*  */}
+      <FeatureProduct></FeatureProduct>
     </div>
   );
 };
