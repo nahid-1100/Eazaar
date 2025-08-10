@@ -1,6 +1,5 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import Card from "./card";
 import useProducts from "../../../../hooks/useProducts";
 import TabCategory from "./TabCategory";
 const TopCategory = () => {

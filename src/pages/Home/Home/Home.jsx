@@ -7,6 +7,8 @@ import women from "../../../assets/Home/categories/product-block-slider-women-2-
 import watch from "../../../assets/Home/categories/watch_slider_1_406x6281-1.jpg";
 import computer from "../../../assets/Home/categories/laptop_slider_2_406x628-1.jpg";
 import phone from "../../../assets/Home/categories/phone_slider_2_406x628-1.jpg";
+import HotSale from "./HotSale/HotSale";
+import EasyLife from "./EasyLife/EasyLife";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Slider></Slider>
       <OfferBanner></OfferBanner>
       <TopCategory></TopCategory>
+      {/* Hot seal */}
+      <HotSale></HotSale>
       {/* ============== Womens category */}
       <Categories
         name={"Women Clothing"}
@@ -49,6 +53,8 @@ const Home = () => {
         bgImg={watch}
         cate={"phone"}
       ></Categories>
+      {/* Gadget Makes Your Life Easy */}
+      <EasyLife></EasyLife>
     </div>
   );
 };
