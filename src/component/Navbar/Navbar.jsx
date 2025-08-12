@@ -1,10 +1,41 @@
-import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
+  const navOptions = (
+    <>
+      <li className="text-xl font-medium">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-blue-500 hover:text-blue-300"
+              : ""
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+      <li className="text-xl font-medium">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-blue-500 hover:text-blue-300"
+              : ""
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+    </>
+  );
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm font-roboto">
+    <>
+      <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -15,36 +46,19 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
+                />
               </svg>
             </div>
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              {navOptions}
             </ul>
           </div>
           <Link to={"/"} className="text-3xl font-bold tracking-wider">
@@ -55,34 +69,19 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
-          </ul>
+          <ul className="menu menu-horizontal px-1 hover:none">{navOptions}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
 export default Navbar;
+
+<Link to={"/"} className="text-3xl font-bold tracking-wider">
+  Eazaar
+  <span className="font-bold text-4xl tracking-normal text-main">.</span>
+</Link>;

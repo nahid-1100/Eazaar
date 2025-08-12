@@ -14,8 +14,8 @@ import banner3 from "../../../../assets/Home/slider/banner3.jpg";
 import { Pagination } from "swiper/modules";
 const Slider = () => {
   return (
-    <section className="grid grid-cols-6 gap-6 mt-10">
-      <div className=" col-span-4 ">
+    <section className="grid grid-cols-1 md:grid-cols-6 gap-6 mt-10">
+      <div className="col-span-6 md:col-span-4 ">
         {/* TODO: slider */}
         <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
           <SwiperSlide>
@@ -33,7 +33,7 @@ const Slider = () => {
         </Swiper>
       </div>
       {/* TODO: slider cover */}
-      <div className="col-span-2 flex flex-col gap-8 mt-4">
+      <div className="col-span-6 md:col-span-2 flex flex-col gap-8 mt-4">
         <div className="border-2 border-amber-600">
           <img src={bannerCampaign} alt="bannerCampaign" />
         </div>

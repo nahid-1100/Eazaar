@@ -28,17 +28,17 @@ const FeatureProduct = () => {
           <div className="divider"></div>
 
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={projector}></TabCategory>
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={light}></TabCategory>
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={laptop}></TabCategory>
             </div>
           </TabPanel>

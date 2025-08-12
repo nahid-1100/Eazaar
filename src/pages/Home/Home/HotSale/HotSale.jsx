@@ -1,16 +1,24 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import hot from "../../../../assets/Home/offer/offer_banner_21.jpg";
+import watch from "../../../../assets/Home/other/hand_watch1-1-1.png";
 const HotSale = () => {
   return (
-    <section className="grid grid-cols-3">
-      <div className="col-span-1">Basic gift Idea</div>
-      <div className="col-span-2">
+    <section className="grid grid-cols-1 md:grid-cols-3">
+      <div className="col-span-1 mr-12">
+        <div className="border-2 border-red-600 mb-4">
+          <img src={watch} alt="" />
+        </div>
+        <div className="border-2 border-red-600">
+          <img src={watch} alt="" />
+        </div>
+      </div>
+      <div className="md:col-span-2">
         <div>
           <div>
             <Tabs>
               <TabList className="">
-                <div className="flex justify-between items-center">
-                  <div className="text-2xl font-semibold">Hot Seal</div>
+                <div className="md:flex justify-between items-center text-center ">
+                  <div className="text-2xl font-semibold mb-4 ">Hot Sale</div>
 
                   <div>
                     <Tab>16% Off</Tab>
@@ -22,7 +30,7 @@ const HotSale = () => {
               <div className="divider"></div>
 
               <TabPanel>
-                <div className="grid grid-cols-3 ">
+                <div className="grid grid-cols-1 md:grid-cols-3 ">
                   <div className=" relative border-r-[1px] border-gray-200">
                     <figure>
                       <img src={hot} alt="" />
@@ -94,10 +102,14 @@ const HotSale = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <div className="grid grid-cols-4 gap-4">hello</div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  hello
+                </div>
               </TabPanel>
               <TabPanel>
-                <div className="grid grid-cols-4 gap-4">hello</div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  hello
+                </div>
               </TabPanel>
             </Tabs>
           </div>

@@ -20,13 +20,16 @@ const Home = () => {
       {/* Hot seal */}
       <HotSale></HotSale>
       {/* ============== Womens category */}
+
       <Categories
         name={"Women Clothing"}
         image={women}
         bgImg={women}
         cate={"men"}
       ></Categories>
+
       {/* ============== Mens category */}
+
       <Categories
         name={"Mens Clothing"}
         image={men}

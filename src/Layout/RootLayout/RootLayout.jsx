@@ -11,7 +11,7 @@ const RootLayout = () => {
       <div>
         <Outlet></Outlet>
       </div>
-      <div className="mt-[200px]">
+      <div className="">
         <Footer></Footer>
       </div>
     </div>

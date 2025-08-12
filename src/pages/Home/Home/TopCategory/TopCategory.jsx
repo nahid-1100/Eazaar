@@ -8,7 +8,7 @@ const TopCategory = () => {
     return;
   }
   // TODO: change filter brand to category
-  const projector = products.filter((item) => item.brand === "FitLife");
+  const projector = products.filter((item) => item.brand === "ElectroMax");
   const light = products.filter((item) => item.brand === "NovaCore");
   const laptop = products.filter((item) => item.brand === "TechNova");
   // console.log(projector);
@@ -28,17 +28,17 @@ const TopCategory = () => {
           <div className="divider"></div>
 
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={projector}></TabCategory>
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={light}></TabCategory>
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <TabCategory items={laptop}></TabCategory>
             </div>
           </TabPanel>
