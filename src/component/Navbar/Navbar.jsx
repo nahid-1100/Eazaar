@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-
+import { FaRegUserCircle } from "react-icons/fa";
 const Navbar = () => {
   const navOptions = (
     <>
@@ -72,7 +72,12 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hover:none">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <NavLink
+            to="/register"
+            className="flex justify-center items-center gap-1"
+          >
+            <FaRegUserCircle size={24} /> Login
+          </NavLink>
         </div>
       </div>
     </>
