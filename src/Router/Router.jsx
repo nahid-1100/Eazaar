@@ -5,6 +5,10 @@ import Home from "../pages/Home/Home/Home";
 import ProductsDetails from "../pages/ProductsDetails/ProductsDetails";
 import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";
+import PrivateRoute from "./PrivateRoute";
+import Dashboard from "../pages/Dashboard/Dashboard/Dashboard";
+import DashboardLayout from "../Layout/Dashboard/DashboardLayout";
+import ProductAdd from "../pages/Dashboard/ProductAdd/ProductAdd";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +20,12 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/details",
-        element: <ProductsDetails></ProductsDetails>,
+        path: "/details/:id",
+        element: (
+          <PrivateRoute>
+            <ProductsDetails></ProductsDetails>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/register",
@@ -26,6 +34,17 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+    ],
+  },
+  // ? dashboard route
+  {
+    path: "dashboard",
+    element: <DashboardLayout />,
+    children: [
+      {
+        path: "/dashboard/productadd",
+        element: <ProductAdd></ProductAdd>,
       },
     ],
   },

@@ -25,7 +25,7 @@ const AuthProvider = ({ children }) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
   // ?  sign out a user, call
-  const signout = () => {
+  const logOut = () => {
     signOut(auth);
   };
   //   ? Set an authentication state observer and get user data
@@ -33,10 +33,11 @@ const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       console.log(user);
       setUser(user);
+      setLoading(false);
     });
     return () => unsubscribe();
   }, [auth]);
-  const authInfo = { user, loading, auth, createUser, signIn, signout };
+  const authInfo = { user, loading, auth, createUser, signIn, logOut };
 
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>

@@ -1,6 +1,10 @@
 import { Link, NavLink } from "react-router";
 import { FaRegUserCircle } from "react-icons/fa";
+import useAuth from "../../hooks/useAuth";
 const Navbar = () => {
+  const { user, logOut } = useAuth();
+  console.log(user);
+  // ? nav options for mobile and desktop
   const navOptions = (
     <>
       <li className="text-xl font-medium">
@@ -19,7 +23,7 @@ const Navbar = () => {
       </li>
       <li className="text-xl font-medium">
         <NavLink
-          to="/details"
+          to="/dashboard"
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
@@ -28,11 +32,21 @@ const Navbar = () => {
               : ""
           }
         >
-          Details
+          Test
         </NavLink>
       </li>
     </>
   );
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        // sign out successful
+      })
+      .catch((error) => {
+        // an error happened
+        console.log(error);
+      });
+  };
   return (
     <>
       <div className="navbar bg-base-100 ">
@@ -72,12 +86,47 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hover:none">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <NavLink
-            to="/register"
-            className="flex justify-center items-center gap-1"
-          >
-            <FaRegUserCircle size={24} /> Login
-          </NavLink>
+          {user?.email ? (
+            <div className="dropdown dropdown-end">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost btn-circle avatar"
+              >
+                <div className="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS Navbar component"
+                    // * TODO: CHANGE PROFILE PICTURE LATER
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  />
+                </div>
+              </div>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <p className="justify-between">
+                    Profile
+                    <span className="badge">New</span>
+                  </p>
+                </li>
+                <li>
+                  <p>Settings</p>
+                </li>
+                <li onClick={handleLogout}>
+                  <p>Logout</p>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <NavLink
+              to="/register"
+              className="flex justify-center items-center gap-1"
+            >
+              <FaRegUserCircle size={24} /> Login
+            </NavLink>
+          )}
         </div>
       </div>
     </>

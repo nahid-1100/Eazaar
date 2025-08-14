@@ -1,6 +1,4 @@
-import React from "react";
 import ProductInfoSection from "./ProductInfoSection/ProductInfoSection";
-
 const ProductsDetails = () => {
   return (
     <div>
